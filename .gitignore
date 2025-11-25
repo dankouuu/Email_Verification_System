@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+.env.*
+
+# Django
+*.sqlite3
+db.sqlite3
+/staticfiles/
+/media/
+celerybeat-schedule
+
+# Node/Vite/React
+node_modules/
+dist/
+build/
+.vite/
+*.log
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+.coverage
+coverage/
+*.cover
+*.py,cover
+htmlcov/
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Ignore secrets
+backend/api/settings_email_verification.py
